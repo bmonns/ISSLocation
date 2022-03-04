@@ -8,4 +8,4 @@ const requestISSLocation = async () => {
     h3.innerHTML = '<br>'+`longitude: ${longitude}` + "<br>" + `latitude: ${latitude}`
 }
 
-document.getElementById('buttonClick').addEventListener("click", requestISSLocation());
+document.getElementById('buttonClick').addEventListener("click", requestISSLocation);
